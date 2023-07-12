@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>r_d | Lecture #23</title>
+  <link href='/style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+    <h1>r_d | Lecture #23</h1>
+  </header>
+  <main>
+    <div>
+      <input
+        autofocus
+        type="search"
+        autocomplete="off"
+        placeholder="Пошук"
+      />
+    </div>
+    <div>
+      <ul id="myRandomList" data-empty="Not found :-("></ul>
+      <template id="tmpl">
+        <li class="item animation"></li>
+      </template>
+    </div>
+    <div id="listStatus">
+      <button id="moreItems" type="button">Generate more items</button>
+      <div>
+        Знайдено <code>20</code> з <code>20</code> записів
+      </div>
+    </div>
+  </main>
+  <footer>
+    @Slaawwa | Viacheslav Kushnir &copy; 2023
+  </footer>
+  <script src="/main.js" type="module"></script>
+</body>
+</html>
